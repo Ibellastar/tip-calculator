@@ -256,7 +256,7 @@ In order to complete the assignment all tests must pass.
 ### Optional Chanllenge
 Use printf and scanf to make your tip calculator interactive. 
 #### Starter Files
-Implement your code inside the following file:
+Implement your code inside the file:
 1. `main.c`
 
 #### Instructions
