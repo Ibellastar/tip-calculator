@@ -27,6 +27,7 @@ The starter files for this exercise are located in the `src` directory. Implemen
   * Calculate the final total:
      * Add the total after tax and the tip amount.
      * Store this in a variable named **total_with_tip**.
+     * Return **total_with_tip**.
 
 
 * In **main.c**, use **printf** and **scanf** to interact with the user:
@@ -116,4 +117,4 @@ Skipped:            0
 Timeout:            0
 ```
 
-In order to complete the exercise all tests must pass.
+In order to complete the assignment all tests must pass.
