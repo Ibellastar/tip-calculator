@@ -38,6 +38,7 @@ $ make checker
 This will run the tests and output the results.
 
 #### Terminal Output
+If all checks pass, you will see the following output:
 ```bash
 1/4 Test 1 - Whole Number Input                                   OK              0.01s
 ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― ✀  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
