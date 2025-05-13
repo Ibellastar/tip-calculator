@@ -6,10 +6,9 @@ In this assignment you will practice working with data types and arithmetic oper
 
 ### Starter Files
 
-The starter files for this exercise are located in the `src` directory. Implement your code inside the following files:
+The starter files for this exercise are located in the `src` directory. Implement your code inside the following file:
 
 1. `tip_calculator.c`
-2. `main.c`
 
 ### Instructions & Requirements
 * In the file **tip_calculator.c**, complete the function **float calculate_bill(float total_bill, float tax_percentage, float tip_percentage)**:
@@ -29,30 +28,6 @@ The starter files for this exercise are located in the `src` directory. Implemen
      * Store this in a variable named **total_with_tip**.
      * Return **total_with_tip**.
 
-
-* In **main.c**, use **printf** and **scanf** to interact with the user:
-  * Prompt the user to enter the total bill amount, tax percentage, and the tip percentage.
-  * Call the **calculate_bill** function and display total amount of money owed inside a **printf** message.
-
-### Compile the Program
-To compile your program, run the following commands:
-```bash
-$ gcc -o tip_calculator src/tip_calculator.c src/main.c
-$ ./tip_calculator
-```
-
-### Command-Line Interface
-When you run the compiled program, it should prompt the user to enter the bill amount, tax percentage, and tip percentage. 
-```bash
-Enter the total bill amount: 13.50
-Enter the tax percentage: 6.15
-Enter the tip percentage: 20
-```
-The program calculates and outputs the total amount of money owed:
-
-```bash
-Total amount to be paid (including tax and tip): 17.20
-```
 ### Run Checks
 To check your work, run the following command:
 
@@ -64,8 +39,8 @@ This will run the tests and output the results.
 
 #### Terminal Output
 ```bash
-1/4 Test 1 - Whole Number Input                                  OK              0.01s
-―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+1/4 Test 1 - Whole Number Input                                   OK              0.01s
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― ✀  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
 calculate_bill(15.0, 8.0, 20.0)
 ../.github/checker/test/test_1.c:13:test_1:PASS
 calculate_bill(100.0, 15.0, 30.0)
@@ -74,12 +49,14 @@ calculate_bill(74.0, 10.0, 20.0)
 ../.github/checker/test/test_1.c:27:test_3:PASS
 calculate_bill(43.0, 11.0, 18.0)
 ../.github/checker/test/test_1.c:34:test_4:PASS
+
 -----------------------
 4 Tests 0 Failures 0 Ignored 
 OK
-―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
-2/4 Test 2 - Single Decimal Point Input                           OK              0.01s
-―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+
+2/4 Test 2 - Single Decimal Point Input                           OK              0.00s
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― ✀  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
 calculate_bill(12.5, 6.5, 18.5)
 ../.github/checker/test/test_2.c:13:test_1:PASS
 calculate_bill(55.3, 12.7, 21.9)
@@ -92,9 +69,10 @@ calculate_bill(32.1, 15.6, 20.2)
 -----------------------
 4 Tests 0 Failures 0 Ignored 
 OK
-―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
-3/4 Test 3 - Two Decimal Point Input                              OK              0.01s
-―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+
+3/4 Test 3 - Two Decimal Point Input                              OK              0.00s
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― ✀  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
 calculate_bill(23.50, 11.20, 20.50)
 ../.github/checker/test/test_3.c:13:test_1:PASS
 calculate_bill(55.03, 12.07, 21.09)
@@ -107,9 +85,10 @@ calculate_bill(32.21, 15.62, 20.22)
 -----------------------
 4 Tests 0 Failures 0 Ignored 
 OK
-―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
-4/4 Test 4 - Mixed Number Input - Whole Numbers & Decimals        OK              0.01s
-―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+
+4/4 Test 4 - Mixed Number Input - Whole Numbers & Decimals        OK              0.00s
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― ✀  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
 calculate_bill(14, 8.20, 18)
 ../.github/checker/test/test_4.c:13:test_1:PASS
 calculate_bill(13.14, 7.65, 20)
@@ -122,14 +101,15 @@ calculate_bill(32, 6.15, 22.50)
 -----------------------
 4 Tests 0 Failures 0 Ignored 
 OK
-―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+
 
 Ok:                 4   
 Expected Fail:      0   
 Fail:               0   
 Unexpected Pass:    0   
 Skipped:            0   
-Timeout:            0   
+Timeout:            0  
 ```
 If there are failing checks you will see summary of the failing tests:
 
@@ -271,3 +251,34 @@ Timeout:            0
 ```
 
 In order to complete the assignment all tests must pass.
+
+### Optional Chanllenge
+Use printf and scanf to make your tip calculator interactive. 
+#### Starter Files
+Implement your code inside the following file:
+1. `main.c`
+
+#### Instructions
+In main.c, use printf and scanf to interact with the user:
+
+Prompt the user to enter the total bill amount, tax percentage, and the tip percentage.
+Call the calculate_bill function and display total amount of money owed inside a printf message.
+
+#### Compile the Program
+To compile your program, run the following commands:
+```bash
+$ gcc -o tip_calculator src/tip_calculator.c src/main.c
+$ ./tip_calculator
+```
+### Command-Line Interface
+When you run the compiled program, it should prompt the user to enter the bill amount, tax percentage, and tip percentage. 
+```bash
+Enter the total bill amount: 13.50
+Enter the tax percentage: 6.15
+Enter the tip percentage: 20
+```
+The program calculates and outputs the total amount of money owed:
+
+```bash
+Total amount to be paid (including tax and tip): 17.20
+```
