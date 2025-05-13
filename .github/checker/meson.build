@@ -15,7 +15,7 @@ inc = include_directories('../../src')
 test_1 = executable('test_1',
   sources: [
     files([
-      '../../src' / 'largest_num.c',
+      '../../src' / 'tip_calculator.c',
       'test' / 'test_1.c',
     ]),
     unity_gen_runner.process('test' / 'test_1.c')
@@ -25,12 +25,12 @@ test_1 = executable('test_1',
 )
 
 
-test('Test 1 - Max of positive numbers', test_1)
+test('Test 1 - Whole Number Input', test_1)
 
 test_2 = executable('test_2',
   sources: [
     files([
-      '../../src' / 'largest_num.c',
+      '../../src' / 'tip_calculator.c',
       'test' / 'test_2.c',
     ]),
     unity_gen_runner.process('test' / 'test_2.c')
@@ -40,12 +40,12 @@ test_2 = executable('test_2',
 )
 
 
-test('Test 2 - Max of negative numbers', test_2)
+test('Test 2 - Single Decimal Point Input', test_2)
 
 test_3 = executable('test_3',
   sources: [
     files([
-      '../../src' / 'largest_num.c',
+      '../../src' / 'tip_calculator.c',
       'test' / 'test_3.c',
     ]),
     unity_gen_runner.process('test' / 'test_3.c')
@@ -55,12 +55,12 @@ test_3 = executable('test_3',
 )
 
 
-test('Test 3 - Max of positive and negative numbers', test_3)
+test('Test 3 - Two Decimal Point Input', test_3)
 
 test_4 = executable('test_4',
   sources: [
     files([
-      '../../src' / 'largest_num.c',
+      '../../src' / 'tip_calculator.c',
       'test' / 'test_4.c',
     ]),
     unity_gen_runner.process('test' / 'test_4.c')
@@ -70,4 +70,4 @@ test_4 = executable('test_4',
 )
 
 
-test('Test 4 - Max of repeating numbers', test_4)
+test('Test 4 - Mixed Number Input - Whole Numbers & Decimals', test_4)
