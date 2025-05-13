@@ -118,5 +118,3 @@ Timeout:            0
 ```
 
 In order to complete the assignment all tests must pass.
-
-### Optional Challenge
