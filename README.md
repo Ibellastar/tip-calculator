@@ -11,7 +11,7 @@ The starter files for this exercise are located in the `src` directory. Implemen
 1. `tip_calculator.c`
 2. `main.c`
 
-### Instructions
+### Instructions & Requirements
 * In the file **tip_calculator.c**, complete the function **float calculate_bill(float total_bill, float tax_percentage, float tip_percentage)**:
   * Calculate the **tax_amount**:
     * Multiply the total bill by the tax percentage divided by 100.
@@ -62,7 +62,7 @@ $ make checker
 
 This will run the tests and output the results.
 
-### Output
+#### Output
 
 If all checks pass, you will see the following output:
 
@@ -118,3 +118,5 @@ Timeout:            0
 ```
 
 In order to complete the assignment all tests must pass.
+
+### Optional Challenge
