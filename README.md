@@ -271,7 +271,7 @@ To compile your program, run the following commands:
 $ gcc -o tip_calculator src/tip_calculator.c src/main.c
 $ ./tip_calculator
 ```
-### Command-Line Interface
+#### Command-Line Interface
 When you run the compiled program, it should prompt the user to enter the bill amount, tax percentage, and tip percentage. 
 ```bash
 Enter the total bill amount: 13.50
