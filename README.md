@@ -10,7 +10,7 @@ The starter files for this exercise are located in the `src` directory. Implemen
 
 1. `tip_calculator.c`
 
-## Instructions & Requirements
+## Instructions
 * In the file **tip_calculator.c**, complete the function **float calculate_bill(float total_bill, float tax_percentage, float tip_percentage)**:
   * Calculate the **tax_amount**:
     * Multiply the total bill by the tax percentage divided by 100.
