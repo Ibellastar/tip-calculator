@@ -28,6 +28,8 @@ The starter files for this exercise are located in the `src` directory. Implemen
      * Store this in a variable named **total_with_tip**.
      * Return **total_with_tip**.
 
+## Rubric
+
 ## Run Checks
 To check your work, run the following command:
 
@@ -250,8 +252,6 @@ Unexpected Pass:    0
 Skipped:            0
 Timeout:            0
 ```
-
-In order to complete the assignment all tests must pass.
 
 ## Optional Challenge
 Use printf and scanf to make your tip calculator interactive. 
