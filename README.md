@@ -1,16 +1,16 @@
 # Assignment: Tip Calculator
 
-### Introduction
+## Introduction
 
 In this assignment you will practice working with data types and arithmetic operators in the C programming language.
 
-### Starter Files
+## Starter Files
 
 The starter files for this exercise are located in the `src` directory. Implement your code inside the following file:
 
 1. `tip_calculator.c`
 
-### Instructions & Requirements
+## Instructions & Requirements
 * In the file **tip_calculator.c**, complete the function **float calculate_bill(float total_bill, float tax_percentage, float tip_percentage)**:
   * Calculate the **tax_amount**:
     * Multiply the total bill by the tax percentage divided by 100.
@@ -28,7 +28,7 @@ The starter files for this exercise are located in the `src` directory. Implemen
      * Store this in a variable named **total_with_tip**.
      * Return **total_with_tip**.
 
-### Run Checks
+## Run Checks
 To check your work, run the following command:
 
 ```bash
@@ -37,7 +37,7 @@ $ make checker
 
 This will run the tests and output the results.
 
-#### Terminal Output
+### Terminal Output
 If all checks pass, you will see the following output:
 ```bash
 1/4 Test 1 - Whole Number Input                                   OK              0.01s
@@ -196,7 +196,7 @@ Timeout:            0
 ```
 
 
-#### Github Output
+### Github Output
 
 If all checks pass, you will see the following output:
 
@@ -253,25 +253,25 @@ Timeout:            0
 
 In order to complete the assignment all tests must pass.
 
-### Optional Chanllenge
+## Optional Challenge
 Use printf and scanf to make your tip calculator interactive. 
 #### Starter Files
 Implement your code inside the file:
 1. `main.c`
 
-#### Instructions
+### Instructions
 In main.c, use printf and scanf to interact with the user:
 
 Prompt the user to enter the total bill amount, tax percentage, and the tip percentage.
 Call the calculate_bill function and display total amount of money owed inside a printf message.
 
-#### Compile the Program
+### Compile the Program
 To compile your program, run the following commands:
 ```bash
 $ gcc -o tip_calculator src/tip_calculator.c src/main.c
 $ ./tip_calculator
 ```
-#### Command-Line Interface
+### Command-Line Interface
 When you run the compiled program, it should prompt the user to enter the bill amount, tax percentage, and tip percentage. 
 ```bash
 Enter the total bill amount: 13.50
