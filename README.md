@@ -28,7 +28,19 @@ The starter files for this exercise are located in the `src` directory. Implemen
      * Store this in a variable named **total_with_tip**.
      * Return **total_with_tip**.
 
-## Rubric
+## Rubric 
+| Test Name | Possible Score |
+| ----------- | ----------- |
+| Test 1 - Whole Number Input  | 12.5 |
+| Test 2 - Single Decimal Point Input | 12.5 |
+| Test 3 - Two Decimal Point Input | 12.5 |
+| Test 4 - Mixed Number Input - Whole Numbers & Decimals | 12.5 |
+| **Total** | **50** |
+
+## Review Format
+This assignment is **auto reveiwed** meaning that your grade will reflect your code passing the test items above. Each test calls your **calculate_bill** function, in order for each test to run it is important that you do not alter the name of the functions provided to you in the **src** folder. 
+
+Tests are run from the **.github** folder, in order to perserve the integretiy of the autograder and to uphold academic integrety, it is important that you do NOT alter any of the code in the **.github** folder. Altering code inside the **.github** folder will trigger a flag on your Github account and your instructor(s) will be notified of the violation to academic integrity. 
 
 ## Run Checks
 To check your work, run the following command:
